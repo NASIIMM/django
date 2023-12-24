@@ -118,7 +118,16 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+
+RECAPTCHA_SECRET_KEY=''
+POSTMARK_API_TOKEN=''
+
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+RECAPTCHA_SECRET_KEY = '6LcIYzopAAAAAHAVKe9fshToNpyBbO8LP9w33btp'
+POSTMARK_API_TOKEN=''
